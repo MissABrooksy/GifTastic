@@ -19,7 +19,7 @@ function getGifs(){
 
   let input = $("gifInput").val()
 
-var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+input+"&api_key=UMpcHdf7DsNyxd6QLhzS03psCOF65go0&limit=10");
+var xhr = $.get("https://api.giphy.com/v1/gifs/search?q="+input+"&api_key=UMpcHdf7DsNyxd6QLhzS03psCOF65go0&limit=10");
 
 console.log(input);
 xhr.done(function(response) { 
