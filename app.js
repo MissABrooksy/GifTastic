@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 function getGifs(){
 
-  var input = $("gifInput").val()
+  let input = $("gifInput").val()
 
 var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+input+"&api_key=UMpcHdf7DsNyxd6QLhzS03psCOF65go0&limit=10");
 
